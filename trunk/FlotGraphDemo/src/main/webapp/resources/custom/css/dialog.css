@@ -1,0 +1,52 @@
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";
+/* Above line is used for online google font */
+h2 {
+	text-align: center;
+	font-size: 24px
+}
+
+hr {
+	margin-bottom: 30px
+}
+
+p {
+	font-size: 16px;
+	font-weight: 700
+}
+
+#button {
+	width: 250px;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+label{
+	width: 150px;
+}
+
+input[type=text] {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 150px;
+	border-radius: 5px;
+	border: 0;
+	padding: 0;
+}
+
+input[type=submit] {
+	width: 90px;
+	padding: 8px 0;
+	border-radius: 5px;
+	cursor: pointer
+}
+
+input[type=submit]:hover {
+	border: 1px solid #666;
+}
+
+.ui-dialog .ui-dialog-content {
+	padding: 2em;
+}

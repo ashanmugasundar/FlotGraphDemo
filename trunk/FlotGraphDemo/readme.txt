@@ -1,0 +1,1 @@
+Simple Flot Graph example, with Spring & JQuery Plugin Flot

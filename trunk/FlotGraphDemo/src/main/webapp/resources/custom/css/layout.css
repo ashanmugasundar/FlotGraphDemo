@@ -1,0 +1,81 @@
+html {
+	padding: 0px; /* will add spacing from viewport around BODY */
+	display: block !important;
+}
+
+body {
+	padding: 3px;
+	/* the 'inset' of the body-layout, UNLESS an inset option overrides it */
+	min-height: 300px;
+	min-width: 600px;
+	font-size: 75%;
+	/* border causes a positioning error in UI Draggable
+		border:		10px solid red;
+		*/
+	/* margin causes a positioning error in UI Draggable
+		/* override layout style to 'center' the body * /
+		margin:		0 auto !important; /* does not center in IE8 or less * /
+		max-width:	1100px;
+		width:		1100px;
+		*/
+}
+
+label{
+  display:inline-block;
+  width:100px;
+}
+
+input{
+  display:inline-block;
+  width:200px;
+}
+
+/*Tabs sections and other general cosmetic changes*/
+p {
+	font-size: 1em;
+	margin: 1ex 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.outline {
+	/* border:		1px dashed #F00 !important; */
+	
+}
+
+.add-padding {
+	/*padding:		10px !important; */
+	
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.add-scrollbar {
+	overflow: auto;
+}
+
+.no-scrollbar {
+	overflow: hidden;
+}
+
+.allow-overflow {
+	overflow: visible;
+}
+
+.full-height {
+	height: 100%;
+}
+
+button {
+	cursor: pointer;
+	height: 30px;
+	margin-left: 10px;
+}
+
+.ui-dialog .ui-state-error { 
+	padding: .3em; 
+}
